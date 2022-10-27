@@ -6,6 +6,6 @@ Metrics off the top of my head:
         * The time it takes for them to be within 1 yard of the quaterback (more is better) (CODE: 62DCNHKC)
 
     D-Line:
-        * The it takes for them to be within 1 yard of the quaterback
-        * The time it takes for the quaterback to scramble
-        * What direction the opposite team moves on average during the game
+        * The it takes for them to be within 1 yard of the quaterback (CODE: SP3HVBA5)
+        * The time it takes for the quaterback to scramble (CODE: VHBSCAB8)
+        * What direction the opposite team moves on average during the game (CODE: KC6CJW43)
