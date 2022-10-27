@@ -3,7 +3,7 @@ Our goal is to make metrics that evaluate the o-line and d-line
 Metrics off the top of my head:
 
     O-Line:
-        * The time it takes for them to be within 1 yard of the quaterback (more is better)
+        * The time it takes for them to be within 1 yard of the quaterback (more is better) (CODE: 62DCNHKC)
 
     D-Line:
         * The it takes for them to be within 1 yard of the quaterback
