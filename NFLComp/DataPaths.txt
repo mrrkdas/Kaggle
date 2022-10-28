@@ -1,0 +1,7 @@
+plays = /Users/rish/Desktop/plays.csv 
+pffScoutingData = /Users/rish/Desktop/pffScoutingData.csv 
+players = /Users/rish/Desktop/players.csv
+games = /Users/rish/Desktop/games.csv 
+
+weeks = {/Users/rish/Desktop/week1.csv /Users/rish/Desktop/week2.csv /Users/rish/Desktop/week3.csv /Users/rish/Desktop/week4.csv /Users/rish/Desktop/week5.csv 
+        /Users/rish/Desktop/week6.csv /Users/rish/Desktop/week7.csv /Users/rish/Desktop/week8.csv}
