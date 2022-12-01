@@ -11,3 +11,12 @@ def finalize_data(train_data, test_data):
 
 
   return train_data, test_data
+
+
+def score(preds, y_test):
+  from scipy.stats import spearmanr
+
+  score = spearmanr(preds, y_test)
+
+  print(score)
+
