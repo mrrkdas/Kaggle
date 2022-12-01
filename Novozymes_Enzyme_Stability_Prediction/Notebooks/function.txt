@@ -1,0 +1,13 @@
+def finalize_data(train_data, test_data):
+
+  # Replacing columns
+  train_data["ssf_num"] = train_data["secondary__structure_fraction"].map(lambda x: ssf_change(x)) 
+  test_data["ssf_num"] = train_data["secondary__structure_fraction"].map(lambda x: ssf_change(x))
+
+  train_data.drop("secondary__structure_fraction", axis = 1, inplace = True)
+  test_data.drop("secondary__structure_fraction", axis = 1, inplace = True)
+  train_data.drop(["seq_id", "protein_sequence"], axis = 1, inplace = True)
+  test_data.drop(["seq_id", "protein_sequence"], axis = 1, inplace = True)
+
+
+  return train_data, test_data
