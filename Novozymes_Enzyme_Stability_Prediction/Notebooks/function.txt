@@ -20,3 +20,8 @@ def score(preds, y_test):
 
   print(score)
 
+def make_submmission(preds, name):
+  submission = pd.read_csv("/content/sample_submission.csv")
+  submission["tm"] = preds.round()
+
+  submission.to_csv(name, index = False)
