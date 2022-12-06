@@ -25,3 +25,13 @@ def make_submmission(preds, name):
   submission["tm"] = preds.round()
 
   submission.to_csv(name, index = False)
+
+def ssf_change(random_sff_):
+  random_ssf = random_sff_
+  random_ssf = random_ssf.replace("(", "")
+  random_ssf = random_ssf.replace(")", "")
+  random_ssf = random_ssf.strip()
+  random_ssf_array = np.array(random_ssf.split(","))
+  random_ssf_array = random_ssf_array.astype(np.float64)
+
+  return mean(random_ssf_array)
