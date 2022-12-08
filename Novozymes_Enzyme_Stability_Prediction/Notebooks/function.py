@@ -27,6 +27,7 @@ def make_submmission(preds, name):
   submission.to_csv(name, index = False)
 
 def ssf_change(random_sff_):
+  import numpy as np
   random_ssf = random_sff_
   random_ssf = random_ssf.replace("(", "")
   random_ssf = random_ssf.replace(")", "")
