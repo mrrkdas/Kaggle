@@ -28,6 +28,7 @@ def make_submmission(preds, name):
 
 def ssf_change(random_sff_):
   import numpy as np
+  from statistics import mean
   random_ssf = random_sff_
   random_ssf = random_ssf.replace("(", "")
   random_ssf = random_ssf.replace(")", "")
