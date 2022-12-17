@@ -15,6 +15,7 @@ def finalize_data(train_data, test_data):
 
 def score(preds, y_test):
   from scipy.stats import spearmanr
+  
 
   score = spearmanr(preds, y_test)
 
@@ -22,7 +23,7 @@ def score(preds, y_test):
 
 def make_submmission(preds, name):
   import pandas as pd
-  submission = pd.read_csv("/content/sample_submission.csv")
+  submission = pd.read_csv("/Users/rish/Desktop/Kaggle/Novozymes_Enzyme_Stability_Prediction/Data/novozymes-enzyme-stability-prediction/sample_submission.csv")
   submission["tm"] = preds.round()
 
   submission.to_csv(name, index = False)
